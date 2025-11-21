@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "FytWDhZG9BE=",
+  "success": true,
+  "projectFilePath": "/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/Traveller.Toolset.Common.csproj",
+  "expectedPackageFiles": [
+    "/Users/brandon/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.0/microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "/Users/brandon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "/Users/brandon/.nuget/packages/microsoft.extensions.logging/10.0.0/microsoft.extensions.logging.10.0.0.nupkg.sha512",
+    "/Users/brandon/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0/microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "/Users/brandon/.nuget/packages/microsoft.extensions.options/10.0.0/microsoft.extensions.options.10.0.0.nupkg.sha512",
+    "/Users/brandon/.nuget/packages/microsoft.extensions.primitives/10.0.0/microsoft.extensions.primitives.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

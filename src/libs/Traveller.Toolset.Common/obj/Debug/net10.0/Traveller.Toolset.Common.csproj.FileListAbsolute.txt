@@ -1,0 +1,12 @@
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/bin/Debug/net10.0/Traveller.Toolset.Common.deps.json
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/bin/Debug/net10.0/Traveller.Toolset.Common.dll
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/bin/Debug/net10.0/Traveller.Toolset.Common.pdb
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.csproj.AssemblyReference.cache
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.AssemblyInfoInputs.cache
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.AssemblyInfo.cs
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.csproj.CoreCompileInputs.cache
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.dll
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/refint/Traveller.Toolset.Common.dll
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.pdb
+/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/ref/Traveller.Toolset.Common.dll
