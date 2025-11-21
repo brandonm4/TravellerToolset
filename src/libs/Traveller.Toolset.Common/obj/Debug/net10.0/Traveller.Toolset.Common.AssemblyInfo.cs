@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6155063534ead572441300d74bd131ba3b55d347")]
 [assembly: System.Reflection.AssemblyProductAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

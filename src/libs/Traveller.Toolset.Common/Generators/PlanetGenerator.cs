@@ -1,4 +1,5 @@
 using System;
+using Traveller.Toolset.Extensions;
 
 namespace Traveller.Toolset.Generators;
 
@@ -56,11 +57,8 @@ public class PlanetGenerator()
 
     private (string Code, string Composition, string Pressure) DetermineAtmosphere(string size)
     {
-        var iSize = 0;
-        if (!int.TryParse(size, out iSize))
-        {
-            if (size == "A") iSize = 10;
-        }
+        var iSize = size.CodeToInt();
+        
 
         //Roll 2D6-7 + size
         var roll = dice.RollDiceTotal(2, 6, -7) + iSize;
@@ -69,10 +67,8 @@ public class PlanetGenerator()
         if (roll < 0) roll = 0;
         if (roll > 15) roll = 15;
 
-        string code;
-        if (roll >= 10) code = ((char)('A' + (roll - 10))).ToString();
-        else code = roll.ToString();
-
+        string code = roll.RollToCode();
+       
         string composition;
         string pressure;
 
@@ -218,12 +214,9 @@ public class PlanetGenerator()
 
     private (string Code, float Percentage, string Description) DetermineHydrographics(string size, string atmosphere, string temperature)
     {
-        // Parse size as int, treat "A" as 10
-        int sizeVal = 0;
-        if (!int.TryParse(size, out sizeVal))
-        {
-            if (!string.IsNullOrEmpty(size) && size.ToUpper() == "A") sizeVal = 10;
-        }
+        
+        int sizeVal = size.CodeToInt();
+        
 
         // Roll 2D6-7
         int roll = dice.RollDiceTotal(2, 6, -7);
@@ -251,7 +244,7 @@ public class PlanetGenerator()
         if (roll < 0) roll = 0;
         if (roll > 10) roll = 10;
 
-        string code = roll == 10 ? "A" : roll.ToString();
+        string code = roll.RollToCode();
         float percentage = 0f;
         string description = "";
 
@@ -314,11 +307,7 @@ public class PlanetGenerator()
         if (roll < 0) roll = 0;
         if (roll > 12) roll = 12;
 
-        string code;
-        if (roll == 10) code = "A";
-        else if (roll == 11) code = "B";
-        else if (roll == 12) code = "C";
-        else code = roll.ToString();
+        string code = roll.RollToCode();
 
         string inhabitants = roll switch
         {
@@ -348,7 +337,7 @@ public class PlanetGenerator()
         if (roll < 0) roll = 0;
         if (roll > 15) roll = 15;
 
-        string code = roll >= 10 ? ((char)('A' + (roll - 10))).ToString() : roll.ToString();
+        string code = roll.RollToCode();
 
         string government = roll switch
         {
