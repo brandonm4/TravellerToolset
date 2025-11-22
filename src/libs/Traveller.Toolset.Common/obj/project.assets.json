@@ -363,24 +363,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/brandon/.nuget/packages/": {}
+    "C:\\Users\\brandon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/Traveller.Toolset.Common.csproj",
+      "projectUniqueName": "X:\\Development\\projects\\TravellerToolset\\src\\libs\\Traveller.Toolset.Common\\Traveller.Toolset.Common.csproj",
       "projectName": "Traveller.Toolset.Common",
-      "projectPath": "/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/Traveller.Toolset.Common.csproj",
-      "packagesPath": "/Users/brandon/.nuget/packages/",
-      "outputPath": "/Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/",
+      "projectPath": "X:\\Development\\projects\\TravellerToolset\\src\\libs\\Traveller.Toolset.Common\\Traveller.Toolset.Common.csproj",
+      "packagesPath": "C:\\Users\\brandon\\.nuget\\packages\\",
+      "outputPath": "X:\\Development\\projects\\TravellerToolset\\src\\libs\\Traveller.Toolset.Common\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/brandon/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -426,7 +434,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
