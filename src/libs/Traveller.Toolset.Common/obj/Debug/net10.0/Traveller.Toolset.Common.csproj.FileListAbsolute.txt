@@ -10,3 +10,16 @@
 /Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/refint/Traveller.Toolset.Common.dll
 /Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/Traveller.Toolset.Common.pdb
 /Volumes/Data/Development/projects/TravellerToolset/src/libs/Traveller.Toolset.Common/obj/Debug/net10.0/ref/Traveller.Toolset.Common.dll
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.csproj.AssemblyReference.cache
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.GeneratedMSBuildEditorConfig.editorconfig
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.AssemblyInfoInputs.cache
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.AssemblyInfo.cs
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.csproj.CoreCompileInputs.cache
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.sourcelink.json
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.dll
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\refint\Traveller.Toolset.Common.dll
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\Traveller.Toolset.Common.pdb
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\bin\Debug\net10.0\Traveller.Toolset.Common.deps.json
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\bin\Debug\net10.0\Traveller.Toolset.Common.dll
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\bin\Debug\net10.0\Traveller.Toolset.Common.pdb
+X:\Development\projects\TravellerToolset\src\libs\Traveller.Toolset.Common\obj\Debug\net10.0\ref\Traveller.Toolset.Common.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14e99cf98e283b52f5a16f8d4ec0330aa6ba4413")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7346ac7408baabb0c4637a8ea5f34b5c26e5185f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Traveller.Toolset.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

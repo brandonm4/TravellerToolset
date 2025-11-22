@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-
 using Traveller.Toolset.Extensions;
 
 namespace Traveller.Toolset.Generators;
@@ -41,7 +37,7 @@ public class PlanetGenerator()
         world.LawLevelRating = law.Code;
         world.StarPortRating = starport.Code;
         world.TechLevelRating = tech.Code;
-       
+
         return world;
     }
 
@@ -60,7 +56,7 @@ public class PlanetGenerator()
         };
 
         var roll = dice.RollDiceTotal(2, 6, 0) + modifier;
-        string code, quality, berthingCost, fuel, facilities, bases;
+        string code, quality, fuel, facilities, bases;
         switch (roll)
         {
             case <= 2: code = "X"; break;
@@ -69,7 +65,6 @@ public class PlanetGenerator()
             case <= 8: code = "C"; break;
             case <= 10: code = "B"; break;
             case >= 11: code = "A"; break;
-            default: code = "X"; break;
         }
 
         // Map code -> quality, berthing cost multiplier, fuel & facilities
@@ -783,44 +778,45 @@ public class PlanetGenerator()
 
         return string.Join(", ", codes.Distinct());
     }
-    public class World
-    {
-        public string StarPortRating { get; set; } = string.Empty;
-        public string StarPortType { get; set; } = string.Empty;
+}
+public class World
+{
+    public string StarPortRating { get; set; } = string.Empty;
+    public string StarPortType { get; set; } = string.Empty;
 
-        public string SizeRating { get; set; } = string.Empty;
-        public int SizeKm { get; set; }
+    public string SizeRating { get; set; } = string.Empty;
+    public int SizeKm { get; set; }
 
-        public string AtmosphereRating { get; set; } = string.Empty;
-        public string Atmosphere { get; set; } = string.Empty;
+    public string AtmosphereRating { get; set; } = string.Empty;
+    public string Atmosphere { get; set; } = string.Empty;
 
-        public string HydrogrpahicRating { get; set; } = string.Empty;
-        public string Hydrographic { get; set; } = string.Empty;
+    public string HydrogrpahicRating { get; set; } = string.Empty;
+    public string Hydrographic { get; set; } = string.Empty;
 
-        public string PopulationRating { get; set; } = string.Empty;
-        public int Population { get; set; }
+    public string PopulationRating { get; set; } = string.Empty;
+    public int Population { get; set; }
 
-        public string GovernmentRating { get; set; } = string.Empty;
-        public string Government { get; set; } = string.Empty;
+    public string GovernmentRating { get; set; } = string.Empty;
+    public string Government { get; set; } = string.Empty;
 
-        public string LawLevelRating { get; set; } = string.Empty;
-        public string LawLevel { get; set; } = string.Empty;
+    public string LawLevelRating { get; set; } = string.Empty;
+    public string LawLevel { get; set; } = string.Empty;
 
-        public string TechLevelRating { get; set; } = string.Empty;
-        public string TechLevel { get; set; } = string.Empty;
+    public string TechLevelRating { get; set; } = string.Empty;
+    public string TechLevel { get; set; } = string.Empty;
 
-        //         public string Bases{ get; set; } = string.Empty;
-        //         public string TravelCode{ get; set; } = string.Empty;
-        //         public string TradesCodes{ get; set; } = string.Empty;
-        //         public string System{ get; set; } = string.Empty;
-        //         public string SystemSubType {get;set; } = "Class V";
-        //         public string Allegiances{ get; set; } = string.Empty;
-        //         public string Domain{ get; set; } = string.Empty;
+    //         public string Bases{ get; set; } = string.Empty;
+    //         public string TravelCode{ get; set; } = string.Empty;
+    //         public string TradesCodes{ get; set; } = string.Empty;
+    //         public string System{ get; set; } = string.Empty;
+    //         public string SystemSubType {get;set; } = "Class V";
+    //         public string Allegiances{ get; set; } = string.Empty;
+    //         public string Domain{ get; set; } = string.Empty;
 
-        //         public string PortType{ get; set; } = string.Empty;
-        //         public string BerthingCost{ get; set; } = string.Empty;
-        //         public string Fuel{ get; set; } = string.Empty;
-        //         public string Facilities{ get; set; } = string.Empty;
-        //         public string Extras{ get; set; } = string.Empty;
-        //         public HashSet<string> Tags = new();
-    }
+    //         public string PortType{ get; set; } = string.Empty;
+    //         public string BerthingCost{ get; set; } = string.Empty;
+    //         public string Fuel{ get; set; } = string.Empty;
+    //         public string Facilities{ get; set; } = string.Empty;
+    //         public string Extras{ get; set; } = string.Empty;
+    //         public HashSet<string> Tags = new();
+}
